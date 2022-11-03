@@ -31,7 +31,7 @@
 
 <svelte:window bind:innerWidth={x} bind:innerHeight={y} />
 <section>
-    <h1 class="font-extrabold text-white text-center py-10 text-2xl">Enjoy localhost develop</h1>
+    <h1 class="font-extrabold text-white text-center py-10 text-2xl">Enjoy localhost!</h1>
 	<input
 		type="text"
 		bind:value={link}
