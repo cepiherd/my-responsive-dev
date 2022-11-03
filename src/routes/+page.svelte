@@ -47,7 +47,6 @@
 				<p class="bg-red-400 rounded text-center py-3">{screen.title}</p>
 				<p>{screen.width} x {screen.height}</p>
 				<iframe
-					sandbox="allow-top-navigation allow-scripts allow-forms"
 					src={link}
 					width={screen.width}
 					height={screen.height}
