@@ -31,7 +31,8 @@
 	<div class="flex gap-1 relative  ">
 		{#each screenMotive as screen}
 			<div class="text-white w-full scale-[0.6] max-w-[300px] max-h-0 relative ">
-				<p>{screen.title}</p>
+				<p>{screen.title}</p> 
+                <p>{screen.width} x {screen.height}</p>
 				<iframe
 					src={link}
 					width={screen.width}
